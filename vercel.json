@@ -1,10 +1,5 @@
 {
   "buildCommand": "npm install && chmod +x node_modules/.bin/vite && npm run build",
   "outputDirectory": "dist",
-  "installCommand": "npm install --production=false",
-  "functions": {
-    "api/*.cjs": {
-      "memory": 512
-    }
-  }
+  "installCommand": "npm install --production=false"
 }
