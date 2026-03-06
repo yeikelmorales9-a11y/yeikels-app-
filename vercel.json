@@ -3,6 +3,8 @@
   "outputDirectory": "dist",
   "installCommand": "npm install --production=false",
   "functions": {
-    "api/claude.js": {}
+    "api/claude.js": {
+      "memory": 512
+    }
   }
 }
