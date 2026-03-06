@@ -1,7 +1,7 @@
 import { useState, useCallback, useRef } from "react";
 import * as XLSX from "xlsx";
 
-const API_URL = "https://api.anthropic.com/v1/messages";
+const API_URL = "/api/claude";
 
 function fileToBase64(file) {
   return new Promise((res, rej) => {
