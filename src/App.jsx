@@ -1,7 +1,7 @@
 import { useState, useCallback, useRef } from "react";
 import * as XLSX from "xlsx";
 
-const API_URL = "https://yeikels-gy446btln-yeikelmorales9-a11ys-projects.vercel.app/api/claude";
+const API_URL = "/api/claude";
 
 function fileToBase64(file) {
   return new Promise((res, rej) => {
